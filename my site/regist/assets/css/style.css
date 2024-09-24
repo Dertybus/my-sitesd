@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.header__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.header__menu {
+  background: #1D80ED;
+}
+
+.sigma__line {
+  background: #1D80ED;
+}
+
+.logo_text {
+  display: flex;
+  margin-top: -60px;
+  margin-left: 120px;
+  color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 125vh;
+  background-color: #D9D9D9;
+}
+.main__plate {
+  width: 420px;
+  background-color: #ffffff;
+  border: 1px #788BA5;
+  border-radius: 30;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main__title {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+.main__box {
+  width: 100%;
+  height: 50px;
+}
+.main__text {
+  text-align: center;
+  color: #788BA5;
+}
+.main__text-gr {
+  margin-bottom: 40px;
+}
+.main__btn {
+  margin-bottom: 20px;
+  position: relative;
+  left: -70px;
+}
+.main__input {
+  width: 85%;
+  margin-left: 30px;
+}
+.main__btn-acept {
+  width: 85%;
+  margin-bottom: 50px;
+  background-color: #1D80ED;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.box__text {
+  margin-bottom: 20px;
+  margin-left: -300px;
+}
+
+.podval__item {
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+.podval__btns {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
+}

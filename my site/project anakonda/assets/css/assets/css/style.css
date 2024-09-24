@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.header__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.header__menu {
+  background: #1D80ED;
+}
+
+.sigma__line {
+  background: #1D80ED;
+}
+
+.logo_text {
+  display: flex;
+  margin-top: -60px;
+  margin-left: 120px;
+  color: white;
+}
+
+.main__title {
+  font-size: 40px;
+  padding: 100px 600px;
+  margin-left: 130px;
+}
+.main__block {
+  font-size: 40px;
+  padding: 10px 600px;
+  background: #EBEBEB;
+}
+.main__text {
+  font-size: 50px;
+  margin-top: 60px;
+}
+.main__progressb {
+  scale: 2.5;
+  margin-left: 187px;
+}
+
+.loading-container {
+  width: 600px;
+  height: 130px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-left: -590px;
+  margin-top: 140px;
+}
+
+.loading-container .loading-bar {
+  margin-bottom: 40px;
+}
+
+.loading-bar {
+  width: 1780px;
+  margin: 0px auto;
+  height: 59px;
+  border-radius: 50px;
+  background-color: #808080;
+  padding: 4px 5px;
+  box-shadow: inset 3px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount {
+  /* we haven't included the colour yet, we'll get to that later. */
+  height: 67px;
+  border-radius: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -4px;
+  margin-left: -5px;
+}
+
+.lines {
+  /* the lines overflow the container. This creates a continuous flow of the background */
+  width: 200%;
+  /* We use a SVG file as the background */
+  background: url("lines.svg") repeat-x;
+  height: 120%;
+  text-align: center;
+  margin-top: -35px;
+  /* Any overflow is hidden */
+  overflow: hidden;
+  border-radius: 50px;
+  /* Implement the animations, we'll get to that later */
+  animation: moveBars 1s linear infinite;
+  font-weight: bold;
+  color: #fff;
+  color: 1px;
+  font-size: 18px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.loaded {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 9px;
+  font-size: 30px;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  z-index: 9999;
+}
+
+.green {
+  background-color: #5ABC93;
+}
+
+.blue {
+  background-color: #20b9c3;
+  box-shadow: inset 0px 4px 40px rgba(255, 255, 255, 0.2), 0 10px 10px -5px #1e8aaa, 0 7px 0 #13768c;
+}
+
+.red {
+  background-color: #dc6565;
+  box-shadow: inset 0px 4px 40px rgba(255, 255, 255, 0.2), 0 10px 10px -5px #d23333, 0 7px 0 #8c1212;
+}
+
+.prel__info {
+  display: flex;
+  padding: 200px;
+  padding-top: 100px;
+}
+.prel__text {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 35px;
+  font-size: 40px;
+  padding-left: 80px;
+}
+
+.arrow {
+  display: flex;
+  padding-left: 450px;
+  margin-top: -125px;
+  width: 215px;
+}
+
+.podval__item {
+  display: flex;
+  flex-direction: column;
+  padding: 75px;
+}
+.podval__btns {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
+}
